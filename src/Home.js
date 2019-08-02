@@ -17,7 +17,7 @@ class Home extends React.Component {
       <div>
         <h1>{ this.state.title }<br></br></h1>
         <button onClick = { this.update }>Revert.</button>
-        <Detail detailTitle = {this.title} detailValue = {3}/>
+        <Detail detailTitle = {this.title} detailValue = {2}/>
       </div>
     )
   }
