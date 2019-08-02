@@ -13,6 +13,7 @@ class Detail extends React.Component {
 
 Detail.propTypes = {
     detailTitle: PropTypes.string,
+    detailValue: PropTypes.number
 }
 
 Detail.defaultProps = {
